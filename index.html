@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -37,14 +36,14 @@ a:hover {
   font-size: 0.875rem;
   margin: 5px 0;
 }
-section {
+#section {
   box-shadow: 0px 0px 6px rgba(0,0,0.5);
   border-radius: 5px;
 }
-section h2 {
+#section h2 {
   margin-bottom: 10px;
 }
-section p, section ul {
+#section p {
   margin-bottom: 15px;
 }
 
@@ -63,23 +62,19 @@ section p, section ul {
   padding-bottom: 5px;
 }
 
-#education-certificates h3 {
-  border-bottom: 1px solid red;
-  padding: 5px;
+#professional-profile h3, #key-skills h3, #education-certificates h3,
+#work-experience h3, #technical-projects h3 {
+    border-bottom: 1px solid red;
+    padding: 5px;
+    
 }
-#work-experience h3 {
-  border-bottom: 1px solid red;
-  padding: 5px;
-}
-#technical-projects h3 {
-  border-bottom: 1px solid red;
-  padding: 5px;
-}    
-@media (max-width: 768px) {
+
+@media (max-width: 768px) 
   #Header h1 {
     font-size: 1.5rem;
   }
   #Header p {
+    color: white;
     font-size: 0.75;
   }
   body {
@@ -89,8 +84,9 @@ section p, section ul {
     margin: 5px;
     padding: 5px;
   }
-      
-    </style>
+
+  </style>
+
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -100,11 +96,13 @@ section p, section ul {
   </head>
   <body>
     <header id="Header">
-      <h1>Jai Onions</h1>      <p>Email: <a href="mailto:jai.onions97@gmail.com">Jai.onions97@gmail.com</a></p>
+      <h1>Jai Onions</h1>  <p>Email: <a href="mailto:jai.onions97@gmail.com">Jai.onions97@gmail.com</a></p>
       <p>Staffordshire, UK</p>
-        <a href="https://drive.google.com/file/d/1FdFkVDC0BJ1BU6C3oaxXrl7uUE5oWPru/view?usp=drivesdk" target="_blank">
-    <button id="download-button">Download CV</button>
-</a>     
+        <a href="https://drive.google.com/file/d/12PAsRsZniC3C7lue9LXfb6Y_tgzYreJW/view?usp=sharing" download="JaisCV.pdf">
+          <button>Download CV</button>
+          </a>
+
+   
     </header>
 
     <section id="professional-profile">
@@ -163,7 +161,7 @@ section p, section ul {
         Operated MHE and forklift vehicles, including Reach trucks, LLOP trucks, and pallet jacks, with efficiency 
         and safety. Managed tasks such as machine cleaning, assembly operations, and goods handling with minimal supervision.
       </p>
-      <h3>Notable Employers</h3>
+      <h3>Notable Employers:</h3>
       <ul>
         <li>Noble Foods (Egg Grading Plant, Cannock, 2017) - Hydraulic lift operator, ensuring product quality.</li>
         <li>Screwfix Distribution Centre (Fradley Park, 2018) - Goods-in operative and picker, proficient in LLOP truck operations.</li>
@@ -179,7 +177,7 @@ section p, section ul {
   <p>
     I created my CV using basic HTML and CSS to demonstrate my skills in web 
     development. The project is hosted on 
-    <a href="https://sudo-j182.github.io/Jais-CV/" target="_blank">GitHub Pages</a>, 
+  <a href="https://sudo-j182.github.io/Jais-CV/" target="_blank">GitHub Pages</a>, 
     showcasing my ability to build and deploy projects on a public platform.
   </p>
   <h3>Other Ongoing Projects Include:</h3>
@@ -196,4 +194,3 @@ section p, section ul {
     </section>
   </body>
 </html>
-
